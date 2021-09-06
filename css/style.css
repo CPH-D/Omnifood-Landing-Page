@@ -13,7 +13,6 @@ Default: 400
 - LINE HEIGHTS:
 Default: 1
 
-
 --- 02 COLORS
 
 -PRIMARY: #e67e22
@@ -32,6 +31,13 @@ Default: 1
 2 / 4 / 8 / 12 /16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
+
+html{
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+}
 
 *{
     padding: 0;
