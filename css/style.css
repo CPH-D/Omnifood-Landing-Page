@@ -39,6 +39,7 @@ Paragraph default: 1.6
 --- 04 BORDER_RADIUS
 
 DEFAULT: 8px
+MEDIUM: 12px
 
 --- 05 WHITESPACE
 - Spacing system (px)
@@ -64,6 +65,10 @@ body{
     line-height: 1;
     font-weight: 400;
     color: #555;
+}
+
+strong {
+    font-weight: 500;
 }
 
 /******************************/
@@ -185,3 +190,4 @@ body{
 /******************************/
 /* GENERAL RE-USED COMPONENTS */
 /******************************/
+
