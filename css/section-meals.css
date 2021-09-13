@@ -17,6 +17,11 @@
     gap: 0.4rem;
 }
 
+.all-recipes{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
 .tag{
     display: inline-block;
     padding: 0.4rem 0.8rem;
