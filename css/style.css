@@ -72,7 +72,7 @@ strong {
 }
 
 /******************************/
-/* GENERAL RE-USED COMPONENTS */
+/* HEADER COMPONENTS */
 /******************************/
 
 .heading-primary,
@@ -114,7 +114,7 @@ strong {
 }
 
 /******************************/
-/* GENERAL RE-USED COMPONENTS */
+/* LINK/BTN COMPONENTS */
 /******************************/
 
 .btn:link, 
@@ -167,6 +167,10 @@ strong {
     border-bottom: 1px solid transparent;
 }
 
+/******************************/
+/* MARGIN/ALIGNMENT COMPONENTS */
+/******************************/
+
 .margin-right-sm{
     margin-right: 1.6rem !important;
 }
@@ -175,8 +179,12 @@ strong {
     margin-bottom: 4.8rem !important;
 }
 
+.center-text {
+    text-align: center;
+}
+
 /******************************/
-/* GENERAL RE-USED COMPONENTS */
+/* CONTAINER/GRID COMPONENTS */
 /******************************/
 
 .container{
@@ -208,7 +216,7 @@ strong {
 }
 
 /******************************/
-/* GENERAL RE-USED COMPONENTS */
+/* LIST COMPONENTS */
 /******************************/
 
 .list{
@@ -230,3 +238,4 @@ strong {
     height: 3rem;
     color: #e67e22;
 }
+
