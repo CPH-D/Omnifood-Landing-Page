@@ -11,8 +11,6 @@
         to right bottom,
         #eb984e,
         #e67e22);
-    /* temp */
-    height: 50rem;
     overflow: hidden;
 }
 
@@ -73,10 +71,19 @@
     color: #aaa;
 }
 
-.cta-form select{
-
+.cta-btn{
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
 }
 
-.cta-form button{
+.cta-btn:hover{
+    background-color: #fff;
+    color: #555;
+}
 
+.cta *:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
