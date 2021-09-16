@@ -197,3 +197,51 @@
     }
 }
 
+/******************************/
+/* SMALLER TABLETS */
+/******************************/
+
+@media (max-width: 700px){
+    .grid--3-cols, 
+    .grid--4-cols{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .heading-secondary{
+        margin-bottom: 6.4rem;
+    }
+
+    .step-number{
+        font-size: 6.4rem;
+    }
+
+    .diets{
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+
+    .pricing-plan{
+        width: 100%;
+    }
+
+    .cta-text-box{
+        padding: 3.2rem;
+    }
+
+    .grid--footer{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .logos-col,
+    .contact-us-col{
+        grid-column: span 3;
+    }
+
+    .nav-col{
+        grid-row: 1;
+        grid-column: span 2;
+        margin-bottom: 3.2rem;
+    }
+
+
+}
