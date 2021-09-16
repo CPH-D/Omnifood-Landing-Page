@@ -9,6 +9,11 @@
 @import "section-cta.css";
 @import "footer.css";
 
+
+/******************************/
+/* SMALL DESKTOPS */
+/******************************/
+
 @media (max-width: 1300px){
     .hero {
         max-width: 120rem;
@@ -22,3 +27,46 @@
     }
 }
 
+/******************************/
+/* PORTRAIT MODE TABLETS */
+/******************************/
+
+@media (max-width: 1200px){
+    html{
+        /* 9 / 16 = 56.25% */
+        font-size: 56.25%;
+    }
+
+    .grid{
+        column-gap: 4.8rem;
+        row-gap: 6.4rem;
+    }
+
+    .heading-secondary{
+        font-size: 3.6rem;
+    }
+
+    .heading-tertiary{
+        font-size: 2.4rem;
+    }
+
+    .header{
+        padding: 0 3.2rem;
+    }
+
+    .main-nav-list{
+        gap: 3.2rem;
+    }
+
+    .hero{
+        gap: 4.8rem
+    }
+
+    .logos img{
+        height: 2.4rem;
+    }
+
+    .testimonials-container{
+        padding: 9.6rem 3.2rem;
+    }
+}
