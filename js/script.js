@@ -8,10 +8,19 @@
 //   h1.style.padding = "5rem";
 // });
 
+// Navigation Menu On-Click Function
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
+
+// Setting Current Year for the Copyright on Footer Section
 const staticYear = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
-console.log(currentYear)
 staticYear.textContent = currentYear;
+
+
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
