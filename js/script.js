@@ -1,13 +1,3 @@
-
-// const myName = "Chris Hernandez";
-// const h1 = document.querySelector(".heading-primary");
-
-// h1.addEventListener("click", function () {
-//   h1.textContent = myName;
-//   h1.style.backgroundColor = "red";
-//   h1.style.padding = "5rem";
-// });
-
 // Navigation Menu On-Click Function
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
